@@ -1,4 +1,4 @@
-cosc 231
+cosc 231 
 notes from cosc 231
 1-20-2016
 
@@ -6,3 +6,7 @@ todays subject is forms! wooooooooo
 
 default type on a input tag is text
 button in a form defaults to type submit!
+
+see the example html file with these notes
+index.html
+also found at people.emich.edu/mbolin1/forms
