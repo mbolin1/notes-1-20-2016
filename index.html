@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<title>my forms</title>
+	</head>
+	
+	<body>
+		<h1>enter your data</h1>
+		<form action="index.html" method="GET">
+			<!--Always surround your label and associated elements with the label tag-->
+			<label>
+				Name:
+				<input type="text" name="name" placeholder="first name" />
+			</label>
+			<br />
+			<label>
+				Password:
+				<input type="password" name="pass"/>
+			</label> 
+			<br />
+			<label>
+				Fries
+				<input type="radio" value="french fries" name="potatoes"/>
+			</label>
+			<label>
+				Twice baked
+				<input type="radio" value="twobake" name="potatoes"/>
+			</label>
+			<label>
+				put em in a stew
+				<input type="radio" value="stew" name="potatoes"/>
+			</label>
+			<br />
+			<input type="reset" />
+			<br />
+			<input type="submit" value="send away" name="bob"/>
+			<br />
+			<button type="button" name="steve" value="jim bob">put some stuff here</button>
+			<br />
+			<label>
+				1<input  disabled type="checkbox" value="1" name="nums[bob]"/>
+			</label>
+			<label>
+				2<input  type="checkbox" value="2" name="nums[35]"/>
+			</label>
+			<label>
+				3<input  type="checkbox" value="3" name="nums[sally]"/>
+			</label>
+			<label>
+				4<input  type="checkbox" value="4" name="nums[AUGUSTUS!]"/>
+			</label>
+			<input type="textarea" name="zerovalue" value="now has a value hahahaha"/>
+			<select multiple name="stuff">
+				<option value="fud">pizza</option>
+				<option value="person">bob</option>
+				<option value="emperor">AUGUSTUS!</option>
+				<option disabled value="nope">choose</option>
+			</select>
+		</form>
+	</body>
+</html>
